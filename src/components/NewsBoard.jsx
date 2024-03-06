@@ -1,10 +1,8 @@
 import React from 'react'
 
-function NewsBoard() {
+const NewsBoard = () => {
   return (
-    <div>
-
-    </div>
+    <div>NewsBoard</div>
   )
 }
 
