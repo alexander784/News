@@ -12,7 +12,7 @@ const NewsBoard = ({ category }) => {
     },[category])
   return (
     <div>
-        <h2 className='text-center'>Latest<span className='badge bg-danger'>News</span></h2>
+        <h2 className='text-center'>Breaking<span className='badge bg-danger'>News</span></h2>
 
         {articles.map((news,index) => {
             return <NewsItem key={index}
