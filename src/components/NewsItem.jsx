@@ -1,11 +1,11 @@
 import React from 'react'
 
-function NewsBoard() {
+const NewsItem = () => {
   return (
     <div>
-
+      
     </div>
   )
 }
 
-export default NewsBoard
+export default NewsItem
