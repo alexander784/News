@@ -7,19 +7,19 @@
   3. Allow users to eaasily browse through different categories.
 
 ## Installation
-1. Clone the Repo:
+1. Clone the Repo:<br>
    `git clone <repo url> `
 
-2. Install dependecies:
+2. Install dependecies: <br>
     `npm install`
 
 
 ## Usage:
 1. Obtain your API key from the NEWS API.
 2. Create a `.env` file in the root directory of the project.
-3. Add your API key to the .env file:
+3. Add your API key to the .env file:<br>
   `API_NEWS_KEY = your_api`
-4. Start development server:
+4. Start development server:<br>
    `npm run dev`
 
 ## License:
