@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import NewsItem from './NewsItem';
 
 const NewsBoard = () => {
 
@@ -12,6 +13,16 @@ const NewsBoard = () => {
   return (
     <div>
         <h2 className='text-center'>Latest<span className='badge bg-danger'>News</span></h2>
+
+        {articles.map((news,index) => {
+            return <NewsItem key={index}
+            title={news.title}
+            description={news.description}
+            src={news.urlToImage}
+            url={news.url}
+                />
+        })}
+
 
     </div>
   )
